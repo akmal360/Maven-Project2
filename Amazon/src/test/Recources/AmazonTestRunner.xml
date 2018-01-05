@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM >
+
+<suite name="Amazon" parallel="none">
+
+
+    <test name="Test Amazon Home"/>
+
+    <parameter name="browser_name" value="chrome"/>
+    <parameter name="operating_system" value="windows"/>
+    <parameter name="url" value="https://www.amazon.com"/>
+
+    <classes>
+
+        <class name="testCase.TestHomePage"/>
+
+    </classes>
+
+
+</suite>
